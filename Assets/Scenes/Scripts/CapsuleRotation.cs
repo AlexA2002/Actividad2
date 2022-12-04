@@ -4,11 +4,8 @@ using UnityEngine;
 
 public class CapsuleRotation : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+   public float RotationAxis;
+   public float RotationSpeed;
 
     // Update is called once per frame
     void Update()
